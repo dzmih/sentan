@@ -128,7 +128,7 @@ def generate_showcase():
 
     metrics_content = (
         f"[bold cyan]Total Processed  :[/bold cyan] [bold white]{total} comments[/bold white]\n"
-        f"[bold cyan]Processing Time  :[/bold cyan] [bold green]13.87 seconds[/bold green] [dim](0.92s/row)[/dim]\n"
+        f"[bold cyan]Processing Time  :[/bold cyan] [bold green]16.19 seconds[/bold green] [dim](1.08s/row)[/dim]\n"
         f"[bold cyan]API Tokens Cost  :[/bold cyan] [bold yellow]~$0.0002 USD[/bold yellow]\n"
         f"[bold cyan]Output File      :[/bold cyan] [white]sample_feedback_processed.csv[/white]"
     )

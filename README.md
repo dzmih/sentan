@@ -63,7 +63,7 @@ Example from the included sample dataset:
 | Michael Chang | The physical build quality and materials feel sturdy enough for daily heavy use, but the legacy UI software looks like it was designed in 2008... | neutral | Sturdy build quality but outdated and tedious UI software. |
 | Alexei Smirnov | While the core tool works fine, the lack of native cloud integration with Google Drive and Dropbox forces our team to manually export and re-upload... | negative | Lack of cloud integration creates workflow bottlenecks. |
 
-Real run on 15 rows took ~16 seconds using `gpt-4o-mini`.
+Real run on 15 rows took 16.19 seconds using `gpt-4o-mini`.
 
 ---
 
