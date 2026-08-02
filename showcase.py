@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Project Visual Showcase Generator for Upwork / Portfolio Screenshot.
-Renders a complete terminal scene summarizing the entire project pipeline and output.
+Customer Feedback Analyzer - Processing & Analytics Terminal View
+Renders a complete terminal scene summarizing execution results and dataset analytics.
 """
 
 import os
@@ -59,14 +59,14 @@ def generate_showcase():
         style="bold white on black",
         border_style="bright_blue",
         box=box.ROUNDED,
-        title="[bold yellow]PORTFOLIO DEMO SHOWCASE[/bold yellow]",
-        subtitle="[dim]Automated Sentiment Analysis & Summarization Pipeline[/dim]"
+        title="[bold yellow]CUSTOMER FEEDBACK ANALYSIS SUMMARY[/bold yellow]",
+        subtitle="[dim]Execution Results & Dataset Analytics[/dim]"
     )
     console.print(header_panel)
 
-    # 2. Main Data Table (Show first 6 rows for perfect screen fit)
+    # 2. Main Data Table
     table = Table(
-        title="[bold white]PROCESSED DATASET SAMPLE (Raw Feedback -> AI Sentiment & Summary)[/bold white]",
+        title="[bold white]PROCESSED DATASET RESULTS (Customer Comment -> Sentiment & Summary)[/bold white]",
         box=box.ROUNDED,
         header_style="bold bright_cyan",
         border_style="bright_blue",
@@ -79,7 +79,7 @@ def generate_showcase():
     table.add_column("Sentiment", justify="center", width=14)
     table.add_column("Generated Summary", style="italic white", width=30)
 
-    sample_rows = rows[:6]  # Top 6 rows for crisp screenshot layout
+    sample_rows = rows[:6]
     for r in sample_rows:
         sentiment = r.get("sentiment", "neutral").lower()
         if sentiment == "positive":
@@ -107,7 +107,7 @@ def generate_showcase():
 
     console.print(table)
 
-    # 3. Analytics & Stats Cards (Side by side)
+    # 3. Analytics & Stats Cards
     bar_width = 18
     pos_bar = "#" * int((pos_pct / 100) * bar_width)
     neu_bar = "#" * int((neu_pct / 100) * bar_width)
