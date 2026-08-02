@@ -59,9 +59,9 @@ Example from the included sample dataset:
 
 | customer_name | comment | sentiment | summary |
 |---|---|---|---|
-| Sarah Jenkins | The product arrived two days early and worked right out of the box... | positive | Product arrived early and customer service was very helpful. |
-| Elena Rostova | Totally disappointed. The item stopped working after 3 days... | negative | Item failed quickly and refund process was slow. |
-| Michael Chang | Decent quality for the price but the user interface feels a bit dated... | neutral | Quality is decent, but the interface is outdated. |
+| Sarah Jenkins | Honestly, I was super skeptical after reading some mixed online forums, but it arrived two full days ahead of schedule. Setup took under 5 minutes... | positive | Exceeded expectations with fast delivery and excellent support. |
+| Michael Chang | The physical build quality and materials feel sturdy enough for daily heavy use, but the legacy UI software looks like it was designed in 2008... | neutral | Sturdy build quality but outdated and tedious UI software. |
+| Alexei Smirnov | While the core tool works fine, the lack of native cloud integration with Google Drive and Dropbox forces our team to manually export and re-upload... | negative | Lack of cloud integration creates workflow bottlenecks. |
 
 Real run on 15 rows took ~16 seconds using `gpt-4o-mini`.
 
