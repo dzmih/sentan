@@ -1,0 +1,16 @@
+id,customer_name,comment,sentiment,summary
+1,Sarah Jenkins,The product arrived two days early and worked right out of the box! Customer service was incredibly helpful when I had a setup question.,positive,Product arrived early and customer service was very helpful.
+2,Michael Chang,Decent quality for the price but the user interface feels a bit dated. Takes some time to get used to the menu navigation.,neutral,"Quality is decent, but the interface is outdated."
+3,Elena Rostova,Totally disappointed. The item stopped working after 3 days and getting a refund took almost two weeks. Would not recommend.,negative,Item failed quickly and refund process was slow.
+4,David Miller,Standard experience. Nothing special to mention,neutral,Experience was standard and unremarkable.
+5,Anna Schmidt,Absolutely love the sleek design and high performance! Best purchase I have made this year.,positive,Customer loves the design and performance of the product.
+6,James Wilson,Package was damaged upon delivery,negative,Package arrived damaged during delivery.
+7,Laura Martinez,The software crashes frequently after the latest v2.4 update. Please fix this bug ASAP!,negative,Software frequently crashes after the latest update.
+8,Robert Taylor,Fast delivery and sleek packaging. The battery life is okay,neutral,Delivery and packaging are good; battery life is average.
+9,Emily Watson,Great value for money. The tutorial video made setting it up super simple.,positive,Excellent value and easy setup with tutorial video.
+10,Alexei Smirnov,The feature set is missing key integrations like Google Drive and Dropbox,negative,Missing key integrations like Google Drive and Dropbox.
+11,Chloe Bennett,Outstanding support team! They solved my issue in under 10 minutes via live chat.,positive,Support team resolved issue quickly via live chat.
+12,Daniel Kim,Pricing is a bit steep compared to competitors offering similar features.,negative,Pricing is higher than competitors with similar features.
+13,Jessica Brown,Works seamlessly across all my devices. The synchronization speed is impressive.,positive,Impressive synchronization speed across all devices.
+14,Mark Johnson,The manual instructions are confusing and translated poorly. Had to figure it out on my own.,negative,Manual instructions are confusing and poorly translated.
+15,Sophia Patel,Overall good product,positive,Customer finds the product overall good.
